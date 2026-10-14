@@ -1,2 +1,14 @@
-# gameradar-releases
-游戏雷达 Windows / Android 安装包与版本更新说明。
+# 游戏雷达
+
+Windows / Android 安装包与版本更新说明。
+
+[下载最新版本](https://github.com/lyzzz1209-commits/gameradar-releases/releases/latest)
+
+安装包在每个版本的 Assets 中：Windows 选择 `.exe`，安卓选择 `.apk`。
+
+- Windows：先退出旧版，再运行新版 EXE。
+- 安卓：下载新版 APK，由系统确认覆盖安装；保持相同包名与签名。请勿先卸载旧版或清除应用数据，否则本地收藏和历史会删除。
+- v0.3.0 起，打开软件或回到前台会检查更新，自动检查间隔至少 24 小时；也可以在“刷新与记录”中手动检查。
+- 游戏数据继续从 Roblox 官方公开接口获取；收藏和最近 30 天历史保存在当前设备。
+
+本仓库只发布安装包和说明。当前安卓安装包为测试签名版，真机安装及升级尚未验证；Windows 安装包未进行外部代码签名。
